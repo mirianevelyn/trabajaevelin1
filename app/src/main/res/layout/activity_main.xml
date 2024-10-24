@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BC34A"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Título en la parte superior -->
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="20dp"
+        android:text="APLICACION MOVIL"
+        android:textColor="#ED1111"
+        android:textColorLink="#FF9800"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Botón para agregar un usuario -->
+
+    <!-- Botón para ver la lista de usuarios -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/tecno" />
+
+    <Button
+        android:id="@+id/btnAgregarUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:backgroundTint="#8BC34A"
+        android:text="Agregar Usuario"
+        android:textColor="#E91E63"
+        android:textColorHighlight="#8BC34A"
+        android:textColorHint="#7E1919"
+        android:textColorLink="#E2EF5F"
+        android:textDirection="anyRtl"
+        android:textIsSelectable="false"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:strokeColor="#EF1818" />
+
+    <Button
+        android:id="@+id/btnVerUsuarios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Ver Usuarios"
+        android:textColor="#17DAF3"
+        android:textColorLink="#1BD1C0"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</LinearLayout>
